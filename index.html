@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title -->
+    <title>Orayda Shagifa</title>
+
+    <!-- png Logo -->
+    <link rel="icon" type="image/png" href="./assets/gradientHeart.png" />
+
+    <!-- primary-theme color -->
+    <meta name="theme-color" content="#faaca8" />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is
+          <span class="text-color-main name">Orayda Shagifa</span>
+          <br />
+          I'm a Computer Science Student.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#contact">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div>
+      </a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/avatar.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I'm Orayda Shagifa, a computer science student passionate about building 
+              impactful software solutions. With experience in Python, JavaScript, and web development 
+              frameworks, I've developed projects ranging from an Instagram followers analyzer to a 
+              financial literacy game for children.
+            </p>
+            <p class="about-wrapper__info-text">
+              I thrive in collaborative environments, as demonstrated 
+              by my contributions to various team-based projects. I'm also skilled in design and content 
+              creation, with experience managing social media and website development. I'm always excited 
+              to explore new technologies and take on challenging projects that make a difference.
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="https://www.linkedin.com/in/orayda-shagifa/" class="cta-btn cta-btn--resume">Connect on LinkedIn</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">
+                Instagram Followers Analyzer
+              </h3>
+              <p class="project-wrapper__text-info">
+                A web application that allows users to upload their Instagram
+                followers.json and following.json files to analyze and identify
+                users they are following who are not following them back.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://nonfollowerchecker.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Live Demo</a
+                >
+                <a
+                  href="https://github.com/orayda718/NonFollowerChecker"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://github.com/orayda718/NonFollowerChecker"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/instafollowers.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Cashier Challenge</h3>
+              <p class="project-wrapper__text-info">
+                Cashier Challenge is an educational game for children (ages 8-12) to learn financial literacy and arithmetic. The game simulates a cashier's role, requiring players to manage transactions, calculate change, and handle money.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://www.youtube.com/watch?v=CtWfbfK8n4Q"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Video Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://www.youtube.com/watch?v=CtWfbfK8n4Q" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/cashiercallenge.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Label Generator</h3>
+              <p class="project-wrapper__text-info">
+                This Python project generates custom labels based on data from
+                an Excel file. The labels include details such as price, lot
+                number, car model, VIN, miles, and a code. Additionally, a
+                custom logo is placed at the bottom-left corner of each label.
+                The generated labels are stored in a time-stamped folder for
+                easy organization.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/orayda718/LabelGenerator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a
+                href="https://github.com/orayda718/LabelGenerator"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/labelgenerator.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">QueryMind</h3>
+              <p class="project-wrapper__text-info">
+                QueryMind allows users to provide personal learning materials (i.e. notes) that they would like to review. Then, the user can input their inquiries about the material, ask for a summary of the content or request practice questions to help consolidate their learning. By tailoring this information to user-specified material, this approach can help students supplement their learning and streamline their revision of concepts relevant to their course material within in larger subject area.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://drive.google.com/file/d/1236j0btYxA7TZPHg3v2wwyYG8gO8MxLE/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Video Demo</a
+                >
+                <a href="https://github.com/pmagbor/QueryMind" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/pmagbor/QueryMind" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/querymind.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Weather App</h3>
+              <p class="project-wrapper__text-info">
+                A simple web application that allows users to check the current weather conditions in any city around the world. The app uses the OpenWeather API to fetch real-time weather data.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://orayda718.github.io/weatherApp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Live Demo</a
+                >
+                <a href="https://github.com/orayda718/weatherApp" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://orayda718.github.io/weatherApp/" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/weatherapp.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Interested in working together? Feel free to reach out!</p>
+          <a href="mailto:oraydashagifa@gmail.com" class="cta-btn cta-btn--resume">Email Me</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/orayda-shagifa/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/orayda718"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://codepen.io/orayda-shagifa/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="codepen"
+          >
+            <i class="fa-brands fa-codepen"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - Website by Orayda Shagifa
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
